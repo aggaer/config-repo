@@ -1,4 +1,6 @@
 spring:
+  rabbitmq:
+    host: 192.168.31.62
   application:
     name: order
   datasource:
@@ -18,5 +20,3 @@ env:
   dev
 label:
   release
-rabbitmq:
-  host: 192.168.31.62
