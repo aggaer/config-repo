@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 123
+    url: jdbc:mysql://192.168.31.62:3306/spring_cloud_sell?characterEncoding=utf8&userSSL=false
+  jpa:
+    show-sql: true
