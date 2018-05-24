@@ -1,6 +1,9 @@
 spring:
   rabbitmq:
     host: 192.168.31.62
+  redis:
+    host: 192.168.31.62
+    port: 6379
   application:
     name: order
   datasource:
