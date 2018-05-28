@@ -6,8 +6,6 @@ label: release
 server:
   port: 18088
 spring:
-  application:
-    name: user
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     password: 123
